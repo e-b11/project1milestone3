@@ -8,7 +8,7 @@ app.set("view engine", "ejs");
 const knex = require("knex")({
   client: "mysql",
   connection: {
-    host: "cakescompany.cfsse0o0k0rj.us-east-2.rds.amazonaws.com",
+    host: "milestone3take1-databaseserver-xxc6tb9enwjv.cfsse0o0k0rj.us-east-2.rds.amazonaws.com",
     user: "admin",
     password: "Dishsoap5",
     database: "cake",
