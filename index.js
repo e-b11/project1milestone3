@@ -26,4 +26,10 @@ app.get("/", (req, res) => {
     });
 });
 
+
+// Health check route at "/"
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
 app.listen(3000);
